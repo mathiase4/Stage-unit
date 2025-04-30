@@ -17,7 +17,7 @@
 **Music fans** intrested in merch and gear
 Anyone really that want to improve their guitar skills or just want to buy a cool shirt or take a guitar for fun.
 
-##Planned Pages/Sections
+## Planned Pages/Sections
 - Home
 - Guitar Shop
 - Online Lessons
@@ -25,33 +25,33 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
 
   
 
-##UX and Design Features
+## UX and Design Features
 - Main navigation meny with clear links to **home** **Guitar** **Lessons** and **Merch**
 - Structured layout, using HTML
 - Strong Visual contrast for readability
 - media queries for responsive design on all devices
 - no popups, clear interaction flow, keep it simple. nice and bless
 - High quality photos and stylish fonts
-  ##Tools & Tech
+  ## Tools & Tech
   - HTML
   - CSS3
   - Git & GitHub
   - Github Pages (for deployment)
  
-    ##To Be Added
+    ## To Be Added
     - Manual Testing plan
     - Screenshots
     - Bug log 
   
 
 
-##Site onwer's goal
+## Site onwer's goal
 To spread more interest in playing guitar and instruments overall. The goal is to guide people toward learning productive skills through music.
 
-  ##manual Testing
+  ## manual Testing
   ??
 
 
 
-  ##bugs
+  ## bugs
   
