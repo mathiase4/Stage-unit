@@ -56,5 +56,5 @@ To spread more interest in playing guitar and instruments overall. The goal is t
 
 
   ## bugs
-  Coming Soon...
->>>>>>> 19cf01c5974692229a637afb389d6c9584bf2cc2
+  -have a problem with git add . --- git commit -m "bla" hard to connect to GitHub.
+
