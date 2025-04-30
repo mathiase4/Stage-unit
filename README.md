@@ -1,6 +1,6 @@
 # Stage-unit
 
-** Stage Unit ** is a static music-themed website designed to showcase the best recommended guitars on the market and good onlinr guitar courses!
+**Stage Unit** is a static music-themed website designed to showcase the best recommended guitars on the market and good online guitar courses!
 
 ---
 
@@ -14,7 +14,7 @@
 ## Target Users 
 
 **Beginner to intermediate guitar players**
-**Music fans** intrested in merch and gear
+**Music fans** interested in merch and gear
 Anyone really that want to improve their guitar skills or just want to buy a cool shirt or take a guitar for fun.
 
 ## Planned Pages/Sections
@@ -26,7 +26,7 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
   
 
 ## UX and Design Features
-- Main navigation meny with clear links to **home** **Guitar** **Lessons** and **Merch**
+- Main navigation menu with clear links to **home** **Guitar** **Lessons** and **Merch**
 - Structured layout, using HTML
 - Strong Visual contrast for readability
 - media queries for responsive design on all devices
@@ -36,7 +36,7 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
   - HTML
   - CSS3
   - Git & GitHub
-  - Github Pages (for deployment)
+  - GitHub Pages (for deployment)
  
     ## To Be Added
     - Manual Testing plan
@@ -45,7 +45,7 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
   
 
 
-## Site onwer's goal
+## Site owner's goal
 To spread more interest in playing guitar and instruments overall. The goal is to guide people toward learning productive skills through music.
 
   ## manual Testing
