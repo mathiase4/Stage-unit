@@ -2,7 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Macondo&family=Oswald&display=swap');
 
 
+body {
 
+background-color:#897346 ;
+}
 
 /* google font style for h1/h2/h3 */
 h1,
