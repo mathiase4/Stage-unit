@@ -13,7 +13,7 @@ h1,
 h2,
 h3 {
     color: lightgray;
-    font-family: "Cal Sans", sans-serif;
+    font-family:"Cal Sans", sans-serif;
     
 }
 
@@ -63,4 +63,10 @@ h3 {
 .bg-dark {
     background-color: #393319 !important;
     height: 300px;
+}
+
+p {
+    color: lightgray;
+    font-family: Cal Sans sans-serif;
+    font-size: 25px;
 }
