@@ -57,13 +57,19 @@ h3 {
     font-size: 20px;
 }
 
+/* navbar nav.link style hover */
+.navbar-custom .nav-link:hover {
+    color: #897346;
+}
 
   
 
 /* footer */
 .bg-dark {
     background-color: #393319 !important;
-    height: 300px;
+    
+    width: auto;
+    margin: auto;
 }
 
 p {
