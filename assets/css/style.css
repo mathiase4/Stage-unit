@@ -11,22 +11,30 @@ h3 {
     font-family: "Cal Sans", sans-serif;
 }
 
+
 /* Style the header banner image */
 .hero {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../images/moses-guide-gitarrlessons.webp);
+    background-position: center center;
+    background-size: cover;
+
+    
     
 }
-/* the moses rock guy image header banner */
-.hero:hover {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image:  url(../images/herohover.webp);
 
-}
 /* the header banner text h3 */
 
 }.hero-text {
     text-align: center;
+}
+
+/* navbar */
+.navbar-custom {
+    height: 80px;
+    background-color: #393319; !important
+}
+
+.navbar-custom .nav-link {
+    color: lightgray;
+    font-family: "Macondo","Cal Sans", sans-serif;
+    font-size: 20px;
 }
