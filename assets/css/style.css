@@ -27,6 +27,7 @@ h3 {
     border-radius: 4px;
     height: 700px;
  width: 80%;
+ 
     
     
 
@@ -126,9 +127,19 @@ p {
   }
   
   .hero-title {
-    color: white;
-    font-size: 3rem;
+    color: lightgrey;
+    font-size: 4rem;
     font-weight: bold;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* gör texten läsbar */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+
   }
-  
+  /* text on image An Awesome Guitarist */
+  .para-title {
+    color: lightgrey;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    position: relative
+    
+  }
+
