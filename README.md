@@ -47,6 +47,12 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
 
       ## Help/ aid tools
       - Favicon help https://www.youtube.com/watch?v=Gpa780F9haQ
+      - Google Fonts
+      - Bootstrap
+      - Fontawesome
+      - Youtube
+      - https://www.adobe.com/express/feature/image/remove-background/png/transparent
+      - Sora AI for website images
   
 
 
