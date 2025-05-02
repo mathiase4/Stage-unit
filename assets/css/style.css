@@ -2,16 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Macondo&family=Oswald&display=swap');
 
 
+
+
+/* google font style for h1/h2/h3 */
 h1,
 h2,
 h3 {
-    font-family: "macondo", sans-serif;
+    font-family: "Cal Sans", sans-serif;
 }
 
-nav {
-    font-family:macondo sans-serif;
-    position: fixed;
-    top: 0;
-    width: 100%;
+/* Style the header banner image */
+.hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/moses-guide-gitarrlessons.webp);
+    
 }
+/* the moses rock guy image header banner */
+.hero:hover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:  url(../images/herohover.webp);
 
+}
+/* the header banner text h3 */
+
+}.hero-text {
+    text-align: center;
+}
