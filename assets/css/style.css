@@ -5,13 +5,16 @@
 body {
 
 background-color:#897346 ;
+padding-top: 80px;
 }
 
 /* google font style for h1/h2/h3 */
 h1,
 h2,
 h3 {
+    color: lightgray;
     font-family: "Cal Sans", sans-serif;
+    
 }
 
 
@@ -19,15 +22,21 @@ h3 {
 .hero {
     background-position: center center;
     background-size: cover;
+    
 
     
     
 }
 
-/* the header banner text h3 */
+/* the quote banner text */
 
-}.hero-text {
+.blockquote {
     text-align: center;
+    color:lightgray;
+    font-family: "Cal Sans", sans-serif;
+    font-size: 60px;
+    
+    
 }
 
 /* navbar */
@@ -40,4 +49,18 @@ h3 {
     color: lightgray;
     font-family: "Macondo","Cal Sans", sans-serif;
     font-size: 20px;
+}
+/* navbar brand logo image */
+.navbar-custom .navbar-brand {
+
+    
+
+}
+
+
+
+/* footer */
+.bg-dark {
+    background-color: #393319 !important;
+    height: 300px;
 }
