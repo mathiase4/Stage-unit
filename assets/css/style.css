@@ -4,7 +4,7 @@
 
 body {
 
-background-color:#897346 ;
+background-color: #86927C;
 padding-top: 80px;
 }
 
@@ -22,6 +22,12 @@ h3 {
 .hero {
     background-position: center center;
     background-size: cover;
+    margin: auto;
+    justify-content: center;
+    border-radius: 4px;
+    height: 700px;
+ width: 80%;
+    
     
 
     
@@ -44,6 +50,10 @@ h3 {
 .bighero {
     
     text-align: center;
+    font-size: 40px;
+    overflow: hidden;
+    max-height: 700px;
+    position: relative;
     
 
 }
@@ -59,6 +69,7 @@ h3 {
 .navbar-custom {
     height: 80px;
     background-color: #393319; !important
+    
 }
 
 .navbar-custom .nav-link {
@@ -74,13 +85,15 @@ h3 {
 
   
 
-/* footer */
+/* footer class */
 .bg-dark {
     background-color: #393319 !important;
     
-    width: auto;
-    margin: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 
 p {
     color: lightgray;
@@ -96,3 +109,26 @@ p {
     
 
 }
+/* content-bg does background in middle main section */
+
+.content-bg {
+    background-color: #897346;
+    width: 80%;
+    margin:auto;
+    padding: 3rem 2rem;
+    
+}
+/* your stage your sound in the image */
+.hero-wrapper {
+    position: relative;
+    max-height: 700px;
+    overflow: hidden;
+  }
+  
+  .hero-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* gör texten läsbar */
+  }
+  
