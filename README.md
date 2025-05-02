@@ -43,7 +43,10 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
     ## To Be Added
     - Manual Testing plan
     - Screenshots
-    - Bug log 
+    - Bug log
+
+      ## Help/ aid tools
+      - Favicon help https://www.youtube.com/watch?v=Gpa780F9haQ
   
 
 
