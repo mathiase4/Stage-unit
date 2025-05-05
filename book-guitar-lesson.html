@@ -63,29 +63,31 @@
 
     <!-- Main Content -->
      <main>
-        
+        <div class="container my-5">
+            <div class="form-wrapper p-4">
         <form class="row g-3">
-            <div class="col-md-6">
+            <div class="col-12 col-md-4">
               <label for="full-name4" class="form-label">Full name</label>
-              <input type="full-name" class="form-control" id="full-name4">
+              <input type="full-name" class="form-control" id="full-name4" name="full name" required>
             </div>
-            <div class="col-md-6">
+            <div class="col-12 col-md-4">
               <label for="Email4" class="form-label">Email</label>
-              <input type="Email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              <input type="Email" class="form-control" id="inputEmail4" name="email" required>
             </div>
             
+            
             <!-- select box what instrument -->
-            <select class="form-select" aria-label="Default select example">
+              <div class="col-12 col-md-4">
+                <label for="instrument" class="form-label">Instrument</label>
+  <select class="form-select" id="instrument" name="instrument" required>
                 <option selected>Which instrument would you like to book a lesson for? </option>
-                <option value="1">Guitar</option>
-                <option value="2">Drums</option>
-                <option value="3">Bas</option>
-                <option value="4">Piano</option>
+                <option value="1" >Guitar</option>
+                <option value="2" >Drums</option>
+                <option value="3" >Bas</option>
+                <option value="4" >Piano</option>
               </select>
+              </div>
+             
 <!------   ----->
             
             <!-- message container to write something -->
@@ -93,17 +95,22 @@
             
             <div class="col-12">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <input class="form-check-input" type="checkbox" id="gridCheck" required>
                 <label class="form-check-label" for="gridCheck">
                   Check me out
                 </label>
               </div>
             </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Anything else we need to know? Tell us!</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
             <div class="col-12">
               <button type="submit" class="btn btn-dark w-20 mt-3">Book now</button>
             </div>
           </form>
-
+            </div>
+        </div>
      
     
     

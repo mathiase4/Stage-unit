@@ -28,8 +28,10 @@ h3 {
     border-radius: 4px;
     height: 700px;
  width: 80%;
- 
-    
+
+  ;
+
+      
 
 
     
@@ -57,7 +59,9 @@ h3 {
     overflow: hidden;
     max-height: 700px;
     position: relative;
-    
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  border: 2px solid #897346;
 
 }
 
@@ -120,6 +124,12 @@ p {
     width: 80%;
     margin:auto;
     padding: 3rem 2rem;
+    background-color: #5F4B32; 
+    border-radius: 12px;
+    padding: 2rem;
+    
+   
+    color: lightgray;
     
 }
 /* your stage your sound in the image */
@@ -143,14 +153,27 @@ p {
 
   }
   /* form check book now text */
-  .form-check,
-  .form-select
-  option {
+  form label,
+  form input,
+  form option {
     font-family: "Macondo", sans-serif;
+    font-size: 20px;
+
+    /* what instrument would u like to learn text */
+  }
+  form select,
+  value  {
+    font-family: "Macondo, sans-serif";
+    ;
+
   }
 
+  /* all buttons font size and font-family */
+   button {
+    font-family: "Macondo", sans-serif;
+   }
 
-}
+
 
   /* text on image An Awesome Guitarist */
   .para-title {
@@ -194,3 +217,4 @@ main h2 {
     text-align: center;
 
 }
+
