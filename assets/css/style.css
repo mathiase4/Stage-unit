@@ -142,6 +142,16 @@ p {
 
 
   }
+  /* form check book now text */
+  .form-check,
+  .form-select
+  option {
+    font-family: "Macondo", sans-serif;
+  }
+
+
+}
+
   /* text on image An Awesome Guitarist */
   .para-title {
     color: lightgrey;
