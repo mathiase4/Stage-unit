@@ -59,7 +59,7 @@ h3 {
     overflow: hidden;
     max-height: 700px;
     position: relative;
-    border-radius: 12px;
+    
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
   border: 2px solid #897346;
 
@@ -129,7 +129,7 @@ p {
         margin: auto;
         padding: 2rem;
         background-color: #5F4B32;
-        border-radius: 12px;
+        
         color: lightgray;
       }
       
@@ -331,7 +331,7 @@ h1.hero-title {
     text-align: right;
     padding-right: 1rem;
     width: 100%;
-    
+
  }
  .navbat-collapse {
     justify-content: flex-end;
