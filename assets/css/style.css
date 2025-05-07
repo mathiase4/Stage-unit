@@ -21,15 +21,15 @@ h3 {
 
 /* Style the header banner image */
 .hero {
-    background-position: center center;
-    background-size: cover;
-    margin: auto;
-    justify-content: center;
+   display: block;
+    margin: 0 auto;
+    
     border-radius: 4px;
-    height: 700px;
- width: 80%;
+    height: auto;
+ width: 100%;
+ max-width: 1140px;
 
-  ;
+  
 
       
 
@@ -77,9 +77,8 @@ h3 {
     height: 80px;
     background-color: #393319; !important
     background-color: #5f4b32; 
-    padding: 2rem;
-   
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    padding: 0.5rem 1rem;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     
     
 }
@@ -125,18 +124,17 @@ p {
 /* content-bg does background in middle main section */
 
 .content-bg {
-    background-color: #897346;
-    width: 80%;
-    margin:auto;
-    padding: 3rem 2rem;
-    background-color: #5F4B32; 
-    border-radius: 12px;
-    padding: 2rem;
     
-   
-    color: lightgray;
+        max-width: 1140px;
+        margin: auto;
+        padding: 2rem;
+        background-color: #5F4B32;
+        border-radius: 12px;
+        color: lightgray;
+      }
+      
     
-}
+
 /* your stage your sound in the image */
 .hero-wrapper {
     position: relative;
@@ -209,7 +207,10 @@ div .card h5 {
   color: lightgray;
 }
     
-
+/* navbar toggler */
+.navbar-toggler {
+   background-color:lightgray;
+}
 
 /* background in card text */
 .card-body {
@@ -234,6 +235,12 @@ main h2 {
     border-bottom-color: #897346;
     ;
 }
+/* navbar brand img */
+.navbar-brand img {
+    max-height: 70px;
+    height:auto;
+
+}
 /* ALL THE MEDIA QUERIES! */
 
 @media screen and (max-width: 576px) {
@@ -243,6 +250,23 @@ h1.hero-title {
 .para-title {
     font-size: 1.1rem;
 }
+.navbar-brand {
+    width: 60px;
+    height: auto;
+
+}
+.navbar-nav .nav-link {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .navbar-brand{
+    padding-left: 10px;
+  }
+  .hero {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
