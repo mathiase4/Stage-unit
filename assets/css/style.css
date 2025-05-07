@@ -76,6 +76,11 @@ h3 {
 .navbar-custom {
     height: 80px;
     background-color: #393319; !important
+    background-color: #5f4b32; 
+    padding: 2rem;
+   
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    
     
 }
 
@@ -178,28 +183,28 @@ p {
   /* text on image An Awesome Guitarist */
   .para-title {
     color: lightgrey;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    top: 85%;
+    top: 88%;
     
   }
 
 div .card p {
-    color: black
+    color: black;
     border-radius: 10px;
-    padding: 7px
+    padding: 7px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* the card h5 text */
 div .card h5 {
 
-    color: black
+    color: black;
     font-size: 20px;
-    background-color: #5f4b32; 
+    background-color: #5f4b32;
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 17px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   color: lightgray;
 }
@@ -229,4 +234,30 @@ main h2 {
     border-bottom-color: #897346;
     ;
 }
+/* ALL THE MEDIA QUERIES! */
 
+@media screen and (max-width: 576px) {
+h1.hero-title {
+    font-size: 2rem;
+}
+.para-title {
+    font-size: 1.1rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .content-bg {
+        padding:1rem;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .hero-title,
+    .para-title {
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+  }
+  
