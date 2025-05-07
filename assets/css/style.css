@@ -59,7 +59,7 @@ h3 {
     overflow: hidden;
     max-height: 700px;
     position: relative;
-    
+    /* Got help with finding a nice box-shadowing from gork, so every box-shadow is from there */ 
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
   border: 2px solid #897346;
 
@@ -79,6 +79,7 @@ h3 {
     background-color: #5f4b32; 
     padding: 0.5rem 1rem;
    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+   
     
     
 }
@@ -246,7 +247,7 @@ main h2 {
     height:auto;
 
 }
-/* ALL THE MEDIA QUERIES! */
+/* ALL THE MEDIA QUERIES! got help from https://www.youtube.com/watch?v=GJRd1yRGFuA and this one https://www.youtube.com/watch?v=j1AhSWFcZpg  */
 
 /* Media screen for 576px small devices */
 
