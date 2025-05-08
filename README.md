@@ -69,7 +69,12 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
 - image elements need to have width description and height to make lighthouse read it easier.
 - had some yellow diagnostics from javascript but im not using javascript.
 - for the most part was the problem the images and the sizes of them.
-
+  
+### Lighthouse Diagnostics what i did
+- i wrote in <img  width and height the photos
+- i changed the images px to match the desktop and mobile requirements
+- validate html and css so everything is correct
+  
   
 
 ## Site owner's goal
