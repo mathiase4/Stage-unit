@@ -73,7 +73,7 @@ To spread more interest in playing guitar and instruments overall. The goal is t
   - used lighthouse testing, got 98% in Desktop Performance, and 74 Performance in Mobile, 96 in Best Practices. most of the red ones was because of high photo px and alot of too good quality images.
   - Tested the website on different screen sizes (mobile,desktop and xxl screens) to check responsiveness.
   - Clicked through all navigation links and buttons to make sure they work correctly.
-
+  - i have learned that i need to check the px and the quality of the images i use before i use them. to make the preformance of the site the best.
 
 
   ## bugs
