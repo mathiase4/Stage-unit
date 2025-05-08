@@ -80,17 +80,31 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
 ## Site owner's goal
 To spread more interest in playing guitar and instruments overall. The goal is to guide people toward learning productive skills through music.
 
-  ## manual Testing
-  - used html validator for index.html,merch.html,book-guitar-lesson.html and guitar-shop.html and everything is green now.
-  - used css validator and everything in my css code is green now.
-  - used lighthouse testing, got 98% in Desktop Performance, and 74 Performance in Mobile, 96 in Best Practices. most of the red ones was because of high photo px and alot of too good quality images.
-  - Tested the website on different screen sizes (mobile,desktop and xxl screens) to check responsiveness.
-  - Clicked through all navigation links and buttons to make sure they work correctly.
-  - i have learned that i need to check the px and the quality of the images i use before i use them. to make the preformance of the site the best.
+## Manual Testing
+
+  - **HTML Validation** All pages (index.html, merch.html, book-guitar-lesson.html, guitar-shop.html) pass the W3C Validator.
+  - **CSS Validation** style.css passed validation without errors.
+  - **Lighthouse Audit**
+  - Desktop Performance: 98%
+  - Mobile Performance: 74%
+  - Best Practices: 96%
+  - Issues mostly related to large image file sizes (now resolved by resizing and setting correct width/height attributes).
+   - **Responsiveness Testing**
+     **Tested manually on:**
+  - Mobile (Chrome dev tools)
+  - Desktop
+  - XXL desktop screen
+  - **Functionality Testing**
+  - All nav links work correctly.
+  - Buttons lead to the correct pages.
+  - Form elements are responsive and usable.
+
 
 
   ## bugs
-  -have a problem with git add . --- git commit -m "bla" hard to connect to GitHub.
+  - have a problem with git add . --- git commit -m "bla" hard to connect to GitHub.
+  -had problem with lighthouse how to form the images smaller and less KB and px.
+  
  
 
 
