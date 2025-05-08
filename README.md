@@ -62,7 +62,15 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
       - https://www.adobe.com/express/feature/image/remove-background/png/transparent
       - Sora AI for website images
   
+## Lighthouse Diagnostics Desktop and Mobile
+- Large contentful paint element.
+- preconnect to required origins.
+- eliminate render-blocking resources.
+- image elements need to have width description and height to make lighthouse read it easier.
+- had some yellow diagnostics from javascript but im not using javascript.
+- for the most part was the problem the images and the sizes of them.
 
+  
 
 ## Site owner's goal
 To spread more interest in playing guitar and instruments overall. The goal is to guide people toward learning productive skills through music.
