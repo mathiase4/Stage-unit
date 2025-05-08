@@ -70,7 +70,7 @@ To spread more interest in playing guitar and instruments overall. The goal is t
   ## manual Testing
   - used html validator for index.html,merch.html,book-guitar-lesson.html and guitar-shop.html and everything is green now.
   - used css validator and everything in my css code is green now.
-  - used lighthouse testing, got 98% in Desktop Performance, and 63 Performance in Mobile, 96 in Best Practices. most of the red ones was because of high photo px and alot of too good quality images.
+  - used lighthouse testing, got 98% in Desktop Performance, and 74 Performance in Mobile, 96 in Best Practices. most of the red ones was because of high photo px and alot of too good quality images.
   - Tested the website on different screen sizes (mobile,desktop and xxl screens) to check responsiveness.
   - Clicked through all navigation links and buttons to make sure they work correctly.
 
