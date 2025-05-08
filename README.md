@@ -1,4 +1,5 @@
 
+
 =======
 # Stage-unit
 
@@ -73,4 +74,8 @@ To spread more interest in playing guitar and instruments overall. The goal is t
 
   ## bugs
   -have a problem with git add . --- git commit -m "bla" hard to connect to GitHub.
+
+
+
+
 
