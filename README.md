@@ -68,7 +68,9 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
 To spread more interest in playing guitar and instruments overall. The goal is to guide people toward learning productive skills through music.
 
   ## manual Testing
-  Coming Soon....
+  - used html validator for index.html,merch.html,book-guitar-lesson.html and guitar-shop.html and everything is green now.
+  - used css validator and everything in my css code is green now.
+
 
 
 
