@@ -295,7 +295,7 @@ h1.hero-title {
         padding: 10px;
     }
 }
-/* media screen for 678px for small devices */
+/* media screen for 678px for small devices, got help from youtube with the transform: translateX thing */
 
 @media screen and (max-width: 768px) {
     .hero-title,
