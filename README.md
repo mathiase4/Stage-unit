@@ -25,7 +25,14 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
 - Online Lessons
 - Merch
 
-  
+  ## Wireframes
+
+### Mobile
+![Mobile Wireframe](assets/images/mobile.png)
+
+### Desktop
+![Desktop Wireframe](assets/images/desktop-wireframe1.png)
+
 
 ## UX and Design Features
 - Main navigation menu with clear links to **home** **Guitar** **Lessons** and **Merch**
