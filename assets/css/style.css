@@ -75,9 +75,8 @@ h3 {
 /* navbar */
 .navbar-custom {
     height: 80px;
-    background-color: #393319; !important
-    background-color: #5f4b32; 
-    padding: 0.5rem 1rem;
+    background-color: #393319 !important;
+     padding: 0.5rem 1rem;
    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
    
     
@@ -222,7 +221,7 @@ div .card h5 {
 .card-body {
     background-color: #86927C;
     font-family: "Macondo", sans-serif;
-    font-size: -20px;
+    font-size: 20px;
     border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
