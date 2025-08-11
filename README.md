@@ -201,8 +201,6 @@ Below are simple screenshots I took while testing:
   ![Home Desktop](assets/screenshots/home2.png)
   ![Home Desktop](assets/screenshots/home3.png)
 
-- Home (Mobile):  
-  ![Home Mobile](assets/screenshots/home-mobile.png)
 
 - Guitar Shop page:  
   ![Shop](assets/screenshots/guitarhome1.png)
@@ -217,6 +215,12 @@ Below are simple screenshots I took while testing:
   ![Merch](assets/screenshots/merchhome1.png)
   ![Merch](assets/screenshots/merchhome2.png)
   ![Merch](assets/screenshots/merchhome3.png)
+
+  - Home (Mobile):  
+  ![Home Mobile](assets/screenshots/mobilhome1.png)
+ ![Home Mobile](assets/screenshots/mobilhome2.png)
+ ![Home Mobile](assets/screenshots/mobilhome3.png)
+  
 
 - HTML Validation (W3C):  
   ![W3C](assets/images/screenshots/w3c.png)
