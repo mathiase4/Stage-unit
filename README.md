@@ -115,11 +115,13 @@ This helped me decide where to put everything, like text, buttons, navbar, and s
 To spread more interest in playing guitar and instruments overall. The goal is to guide people toward learning productive skills through music.
 
 ## Development Process
+
 1. **Idea**:
 - I wanted to create a simple website where people can see guitars, book lessons, and buy merch. The goal was to make it easy for beginners to use.
 
 2. **Planning**:
 - I wrote user stories and made wireframes for mobile and desktop. This helped me plan the layout and decide where to place everything.
+  
 
 3. **Design**:
 - I chose easy-to-read colors and fonts. I made sure the website had good contrast and looked clean on both small and big screens.
@@ -132,14 +134,20 @@ To spread more interest in playing guitar and instruments overall. The goal is t
 
 5. **Content**:
 - I added images and simple text to explain the guitars, lessons, and merch. The content is short and clear, so people can easily understand it.
+- **Why I used an old man for the content**:
+I chose to feature an old man in the content because I thought it would add a fun and humorous touch to the website.
 
 6. **Testing**:
 - I tested all links and buttons to make sure they worked. I also checked how the website looked on mobile, tablet, and desktop. I used HTML and CSS validators to make sure the code was correct.
+- tested many times to use devtools google chrome, and validator to make the code right.
+- tested the site myself to see how fast it responded.
 
 7. **Fixes**:
 - I noticed the images were too big, so I resized them and added width and height to the image tags. I also made sure external links open in a new tab with target="_blank" and rel="noopener".
 - **Challenge**: Handling large images
 - I noticed that large images were slowing down the website. To fix this, I resized the images and added width/height to the image tags. This helped improve loading times and performance.
+- I fixed some wrong Spelling words that had accord.
+  
 
 
 8. **Deploy**:
