@@ -87,7 +87,7 @@ This helped me decide where to put everything, like text, buttons, navbar, and s
 
 
 
-  ## Help/ aid tools
+  ## Help/ Aid tools
   
    - Favicon help https://www.youtube.com/watch?v=Gpa780F9haQ
    - Google Fonts
