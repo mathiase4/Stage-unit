@@ -205,13 +205,18 @@ Below are simple screenshots I took while testing:
   ![Home Mobile](assets/images/screenshots/home-mobile.png)
 
 - Guitar Shop page:  
-  ![Shop](assets/images/screenshots/shop.png)
+  ![Shop](assets/screenshots/guitarhome1.png)
+  ![Shop](assets/screenshots/guitarhome2.png)
+  ![Shop](assets/screenshots/guitarhome3.png)
 
 - Book Guitar Lesson (form):  
-  ![Lessons Form](assets/images/screenshots/lessons-form.png)
+  ![Lessons Form](assets/screenshots/bookhome1.png)
+  ![Lessons Form](assets/screenshots/bookhome2.png)
 
 - Merch page:  
-  ![Merch](assets/images/screenshots/merch.png)
+  ![Merch](assets/screenshots/merchhome1.png)
+  ![Merch](assets/screenshots/merchhome2.png)
+  ![Merch](assets/screenshots/merchhome3.png)
 
 - HTML Validation (W3C):  
   ![W3C](assets/images/screenshots/w3c.png)
