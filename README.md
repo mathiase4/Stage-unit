@@ -235,7 +235,7 @@ Below are simple screenshots I took while testing:
 
 
 - CSS Validation (Jigsaw):  
-  ![Jigsaw](assets/images/screenshots/jigsaw.png)
+  ![Jigsaw](assets/screenshots/csschecker.png)
 
 - Lighthouse result (Desktop):  
   ![Lighthouse Desktop](assets/images/screenshots/lighthouse-desktop.png)
