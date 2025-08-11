@@ -158,36 +158,31 @@ This is how I built the site in simple steps:
 
 ## Deployment
 
-### How I Published the Site
-1. Created a repository on GitHub named "Stage-unit"
-2. Used these commands to upload my code:
+### Published to GitHub Pages
+1. Created repo on GitHub
+2. Ran in terminal:
    ```bash
    git add .
-   git commit -m "First version with all pages"
+   git commit -m "First version"
    git push
+   ```
 
-3. Published using GitHub Pages:
-- Went to repository Settings
-- Scrolled to Pages section
-- Selected main branch
-- Clicked Save
-- Waited for live link
+3. Enabled Pages:
+Settings > Pages > main branch > Save
+
+Live at: https://mathiase4.github.io/Stage-unit/
   
 
  ### Run Locally
  
-1. Clone the repository:
-
-bash
+ ```bash
 git clone https://github.com/mathiase4/Stage-unit.git
+```
 
-2. Open folder in VS Code
 
-3. Launch with:
+- Open in VS Code
 
-Right-click index.html > "Open with Live Server" 
-
-OR double-click index.html in file explorer
+- Right-click index.html > "Open with Live Server"
 
    
 
