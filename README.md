@@ -238,10 +238,10 @@ Below are simple screenshots I took while testing:
   ![Jigsaw](assets/screenshots/csschecker.png)
 
 - Lighthouse result (Desktop):  
-  ![Lighthouse Desktop](assets/screenshots/lighthousecheckdesk
+  ![Lighthouse Desktop](assets/screenshots/lighthousecheckdesktop.png)
 
 - Lighthouse result (Mobile):  
-  ![Lighthouse Mobile](assets/screenshots/lighthousecheckmo
+  ![Lighthouse Mobile](assets/screenshots/lighthousecheckmobile.png)
 
 
 ## Deployment
