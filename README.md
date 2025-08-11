@@ -68,11 +68,6 @@ This helped me decide where to put everything, like text, buttons, navbar, and s
 - **GitHub Pages** – For hosting and deploying the site.
 
  
-    ## To Be Added
-
-- Manual testing plan.  
-- Screenshots of the site.  
-- Bug log with problems found and fixed.
 
 
       ## Help/ aid tools
@@ -136,37 +131,37 @@ This is how I built the site in simple steps:
   - Buttons lead to the correct pages.
   - Form elements are responsive and usable.
 
+
+
 ### Manual Testing Table
 
 | Page              | Feature                  | Expected Result                                   | Testing Method                                 | Actual Result                                 | Fix Needed |
 |-------------------|--------------------------|---------------------------------------------------|------------------------------------------------|-----------------------------------------------|------------|
 | Home              | Navbar links             | Go to correct page when clicked                   | Clicked each navbar link                       | All worked correctly                          | None       |
 | Home              | Hero image               | Image loads and looks good                        | Loaded site and checked image                  | Image loaded fine                             | None       |
-| Home              | External link (PriceRunner) | Opens in new tab                                 | Clicked link                                   | Opened in new tab                             | None      |
+| Guitar Shop       | External link (PriceRunner) | Opens in new tab                               | Clicked each PriceRunner link                  | Opened in new tab                             | None       |
 | Guitar Shop       | Product images           | Show correct guitar images                        | Viewed page                                    | All images correct                            | None       |
 | Guitar Shop       | Buy buttons              | Go to external shop in new tab                    | Clicked each button                            | All worked                                    | None       |
 | Book Guitar Lesson| Form submit               | Requires all fields before sending                | Tried empty form                               | Got error messages for required fields        | None       |
 | Book Guitar Lesson| Email input               | Only accepts valid email                          | Typed wrong format                             | Error shown                                   | None       |
 | Book Guitar Lesson| Dropdown (Instrument)     | Can select an instrument                          | Tried selecting each option                    | All worked                                    | None       |
-| Merch             | Product images            | Images show correctly                             | Checked page                                   | All loaded                                    | None       |
-| Merch             | External merch links      | Open in new tab                                   | Clicked each                                   | Opened in new tab                             | None       |
+| Merch             | “Buy now” buttons (placeholder) | Stay on page (no navigation)                  | Clicked each button                            | Worked as placeholder                         | None       |
 | All pages         | Responsiveness            | Content adjusts for mobile/tablet/desktop         | Tested with Chrome DevTools                    | Layout adjusts well                           | None       |
 | All pages         | HTML & CSS validation     | No validation errors                              | Used W3C and Jigsaw validators                 | Passed both                                   | None       |
 
 
-## Deployment
 
 ### Run locally
 1. Clone the repo:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/mathiase4/Stage-unit.git
+
+  2. Open the folder in VS Code.
+
+3. Open index.html in your browser (or use the Live Server extension) to view the site locally.
+
+
    
-1. Open the folder in VS Code.
-
-2. Open index.html in your browser (or use the Live Server extension).
-
-
-
 
   ## bugs
   - have a problem with git add . --- git commit -m "bla" hard to connect to GitHub.
