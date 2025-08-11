@@ -274,9 +274,31 @@ git clone https://github.com/mathiase4/Stage-unit.git
 
    
 
-  ## bugs
-  - have a problem with git add . --- git commit -m "bla" hard to connect to GitHub.
-  -had problem with lighthouse how to form the images smaller and less KB and px.
+
+
+## Bugs & Fixes
+
+- **Bug 1 – Some links opened in the same tab**  
+  **What happened:** When clicking some external links (for example the guitar links to PriceRunner), they opened in the same tab. This made the user leave the site and they had to click the back button to return.  
+  **Fix:** Added `target="_blank"` and `rel="noopener"` to all external links so they now open in a new tab.
+
+- **Bug 2 – Images were too large**  
+  **What happened:** Lighthouse test gave a lower score because some images had high resolution and no width or height in the code.  
+  **Fix:** Resized the images and added `width` and `height` in the `<img>` tags. This made the site load faster and gave a better Lighthouse score.
+
+- **Bug 3 – Small HTML and CSS issues**  
+  **What happened:** Some small issues showed up when running W3C and Jigsaw validators (like missing attributes).  
+  **Fix:** Fixed all issues so HTML and CSS now validate without errors.
+
+- **Bug 4 – Git push problems**  
+  **What happened:** Had issues with `git add .` and `git commit -m "bla"` because it was hard to connect to GitHub.  
+  **Fix:** Checked my GitHub connection, pulled the latest changes from the remote branch, and then pushed again.
+
+- **Problem:** Lighthouse showed problems with large image file sizes and high KB/px.  
+  **Fix:** Resized images and added correct `width` and `height` attributes in HTML.
+
+
+
   
  
 
