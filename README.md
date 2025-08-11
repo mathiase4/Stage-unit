@@ -106,9 +106,10 @@ This helped me decide where to put everything, like text, buttons, navbar, and s
 - for the most part was the problem the images and the sizes of them.
   
 ### Lighthouse Diagnostics what i did
-- i wrote in <img  width and height the photos
-- i changed the images px to match the desktop and mobile requirements
-- validate html and css so everything is correct
+- wrote width and height in the <img> tags
+- changed image sizes for desktop and mobile
+- checked and fixed HTML and CSS
+
   
   
 
