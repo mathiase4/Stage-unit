@@ -166,9 +166,9 @@ I chose to feature an old man in the content because I thought it would add a fu
 
 **Lighthouse Audit** (11 Aug 2025, deployed site)
 
-- **Desktop**: Performance 98%, Best Practices 96%, Accessibility 100%, SEO 100%
+- **Desktop**: Performance 90%, Best Practices 93%, Accessibility 90%, SEO 82%
 
-- **Mobile**: Performance 74%, Best Practices 96%, Accessibility 100%, SEO 100%
+- **Mobile**: Performance 72%, Best Practices 96%, Accessibility 62%, SEO 82%
 Most problems were from big image sizes. I fixed it by making images smaller and adding width/height in the HTML.
 
 **Responsiveness Testing**
