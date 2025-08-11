@@ -28,28 +28,6 @@ The goal is to help beginners and music fans find gear and learn guitar in a sim
 - [Deployment](#deployment)
 - [Bugs](#bugs)
 
-## Testing of User Stories
-
-### User Story 1:
-
-- As a beginner guitar player, I want to see affordable guitar options so I can choose the right one.
-- Test: Went to "Guitar Shop" page.
-- Expected: See guitar list with prices and links to buy.
-- Result: All guitars are shown with images and buy buttons. Links open in a new tab. 
-
-### User Story 2:
-
-- As a user, I want to book an online guitar lesson so I can learn from home.
-- Test: Filled in the booking form with all correct details.
-- Expected: Form sends data after clicking "Submit".
-- Result: Form worked and showed confirmation message. 
-
-### User Story 3:
-
-- As a music fan, I want to buy merch so I can support Stage Unit.
-- Test: Clicked “Buy Now” on merch page.
-- Expected: Button works (placeholder for now).
-- Result: Button works and stays on page as expected. 
 
 ### Project Purpose
 
@@ -191,7 +169,59 @@ This is how I built the site in simple steps:
 
 
 
+## Testing of User Stories
 
+### User Story 1:
+
+- As a beginner guitar player, I want to see affordable guitar options so I can choose the right one.
+- Test: Went to "Guitar Shop" page.
+- Expected: See guitar list with prices and links to buy.
+- Result: All guitars are shown with images and buy buttons. Links open in a new tab. 
+
+### User Story 2:
+
+- As a user, I want to book an online guitar lesson so I can learn from home.
+- Test: Filled in the booking form with all correct details.
+- Expected: Form sends data after clicking "Submit".
+- Result: Form worked and showed confirmation message. 
+
+### User Story 3:
+
+- As a music fan, I want to buy merch so I can support Stage Unit.
+- Test: Clicked “Buy Now” on merch page.
+- Expected: Button works (placeholder for now).
+- Result: Button works and stays on page as expected. 
+
+## Screenshots
+
+Below are simple screenshots I took while testing:
+
+- Home (Desktop):  
+  ![Home Desktop](assets/images/screenshots/home-desktop.png)
+
+- Home (Mobile):  
+  ![Home Mobile](assets/images/screenshots/home-mobile.png)
+
+- Guitar Shop page:  
+  ![Shop](assets/images/screenshots/shop.png)
+
+- Book Guitar Lesson (form):  
+  ![Lessons Form](assets/images/screenshots/lessons-form.png)
+
+- Merch page:  
+  ![Merch](assets/images/screenshots/merch.png)
+
+- HTML Validation (W3C):  
+  ![W3C](assets/images/screenshots/w3c.png)
+
+- CSS Validation (Jigsaw):  
+  ![Jigsaw](assets/images/screenshots/jigsaw.png)
+
+- Lighthouse result (Desktop):  
+  ![Lighthouse Desktop](assets/images/screenshots/lighthouse-desktop.png)
+
+- Lighthouse result (Mobile):  
+  ![Lighthouse Mobile](assets/images/screenshots/lighthouse-mobile.png)
 
 
 ## Deployment
