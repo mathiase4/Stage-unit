@@ -162,6 +162,8 @@ It worked fine on all.
 - Form works and is easy to use on all devices.
 
 
+## Manual Testing Table
+
 
 
 | Page               | What I tested         | What I expected                   | How I tested                      | What happened         | Fix  |
@@ -295,24 +297,25 @@ git clone https://github.com/mathiase4/Stage-unit.git
 
 ## Bugs and Fixes
 
-- **Bug 1 – Some links opened in the same tab**  
-  **What happened:** When clicking some external links (for example the guitar links to PriceRunner), they opened in the same tab. This made the user leave the site and they had to click the back button to return.  
-  **Fix:** Added `target="_blank"` and `rel="noopener"` to all external links so they now open in a new tab.
+- **Links opened in same tab**
+Some links (like to PriceRunner) opened in the same tab and took me away from my site.
+**Fix**: Made them open in a new tab.
 
-- **Bug 2 – Images were too large**  
-  **What happened:** Lighthouse test gave a lower score because some images had high resolution and no width or height in the code.  
-  **Fix:** Resized the images and added `width` and `height` in the `<img>` tags. This made the site load faster and gave a better Lighthouse score.
+- **Images too big**
+Lighthouse said some images were too big and slowed the site.
+**Fix**: Made images smaller and added width/height.
 
-- **Bug 3 – Small HTML and CSS issues**  
-  **What happened:** Some small issues showed up when running W3C and Jigsaw validators (like missing attributes).  
-  **Fix:** Fixed all issues so HTML and CSS now validate without errors.
+- **HTML/CSS errors**
+The code checkers found some small mistakes.
+**Fix**: Fixed them so no errors now.
 
-- **Bug 4 – Git push problems**  
-  **What happened:** Had issues with `git add .` and `git commit -m "bla"` because it was hard to connect to GitHub.  
-  **Fix:** Checked my GitHub connection, pulled the latest changes from the remote branch, and then pushed again.
+- **Git push problem**
+Couldn’t push my code to GitHub at first.
+**Fix**: Checked my GitHub connection and tried again.
 
-- **Problem:** Lighthouse showed problems with large image file sizes and high KB/px.  
-  **Fix:** Resized images and added correct `width` and `height` attributes in HTML.
+- **Lighthouse performance low**
+Score was low because of big images.
+**Fix**: Made images smaller.
 
 
 
