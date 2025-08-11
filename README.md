@@ -222,8 +222,17 @@ Below are simple screenshots I took while testing:
  ![Home Mobile](assets/screenshots/mobilhome3.png)
   
 
-- HTML Validation (W3C):  
-  ![W3C](assets/images/screenshots/w3c.png)
+- HTML Validation (W3C):
+- Index.html code
+  ![W3C](assets/screenshots/checkerindex.png)
+- Merch.html code
+  ![W3C](assets/screenshots/checkermerch.png)
+- book-guitar-lesson.html code 
+  ![W3C](assets/screenshots/checkerbooking.png)
+- guitar-shop.html code
+  ![W3C](assets/screenshots/checkershop.png)
+
+
 
 - CSS Validation (Jigsaw):  
   ![Jigsaw](assets/images/screenshots/jigsaw.png)
