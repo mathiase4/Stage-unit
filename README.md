@@ -197,7 +197,9 @@ This is how I built the site in simple steps:
 Below are simple screenshots I took while testing:
 
 - Home (Desktop):  
-  ![Home Desktop](assets/images/screenshots/home-desktop.png)
+  ![Home Desktop](assets/screenshots/home1.png)
+  ![Home Desktop](assets/screenshots/home2.png)
+  ![Home Desktop](assets/screenshots/home3.png)
 
 - Home (Mobile):  
   ![Home Mobile](assets/images/screenshots/home-mobile.png)
