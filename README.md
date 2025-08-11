@@ -1,32 +1,48 @@
 
 
 =======
-# Stage-unit
 
-**Stage Unit** is a static music-themed website designed to showcase the best recommended guitars on the market and good online guitar courses!
+
+# Stage Unit
+
+Stage Unit is a small music website.  
+It shows the best guitars I recommend, online guitar lessons, and Stage Unit merch.  
+The goal is to help beginners and music fans find gear and learn guitar in a simple way.
 
 ---
 
+
+
 ## Project Purpose
 
-- Provide good quality guitars that everyone can afford
-- Let users book online guitar courses and learn to play from anywhere at a low price
-- Offer official Stage Unit merchandise like shirts, hats, and more
- ** We want to inspire the world to start playing music again and show that anyone can learn guitar if they put in the time.**
+- Show good quality guitars that are affordable.  
+- Let users book online guitar lessons and learn from anywhere.  
+- Offer official Stage Unit merchandise like shirts, hats, and more.  
 
-## Target Users 
+We want to inspire people to start playing music again and show that anyone can learn guitar if they practice.
 
-**Beginner to intermediate guitar players**
-**Music fans** interested in merch and gear
-Anyone really that want to improve their guitar skills or just want to buy a cool shirt or take a guitar for fun.
+
+
+
+## Target Users
+
+- Beginner to intermediate guitar players.  
+- Music fans interested in merch and gear.  
+- Anyone who wants to improve their guitar skills or just buy a cool shirt or a guitar for fun.
+
 
 ## Planned Pages/Sections
-- Home
-- Guitar Shop
-- Online Lessons
-- Merch
+
+- **Home** – Welcome page with main information about Stage Unit and links to other sections.  
+- **Guitar Shop** – Shows recommended guitars with links to buy them.  
+- **Online Lessons** – Lets users book guitar lessons online.  
+- **Merch** – Shows Stage Unit clothing and accessories.
+
 
   ## Wireframes
+
+  I made wireframes before building the site to plan the layout for both mobile and desktop.  
+This helped me decide where to put everything, like text, buttons, navbar, and so on.
 
 ### Mobile
 ![Mobile Wireframe](assets/images/mobile.png)
@@ -36,22 +52,28 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
 
 
 ## UX and Design Features
-- Main navigation menu with clear links to **home** **Guitar** **Lessons** and **Merch**
-- Structured layout, using HTML
-- Strong Visual contrast for readability
-- media queries for responsive design on all devices
-- no popups, clear interaction flow, keep it simple. nice and bless
-- High quality photos and stylish fonts
-  ## Tools & Tech
-  - HTML
-  - CSS3
-  - Git & GitHub
-  - GitHub Pages (for deployment)
+
+- Main navigation menu with clear links to **Home**, **Guitar Lessons**, and **Merch**.  
+- Simple and structured layout using HTML.  
+- Strong visual contrast for better readability.  
+- Responsive design with media queries so it works on all devices.  
+- No popups, clear and easy user flow.  
+- High quality photos and clean, readable fonts.
+
+## Tools & Tech
+
+- **HTML5** – For the structure of the site.  
+- **CSS3** – For styling and layout.  
+- **Git & GitHub** – For version control and storing the code online.  
+- **GitHub Pages** – For hosting and deploying the site.
+
  
     ## To Be Added
-    - Manual Testing plan
-    - Screenshots
-    - Bug log
+
+- Manual testing plan.  
+- Screenshots of the site.  
+- Bug log with problems found and fixed.
+
 
       ## Help/ aid tools
       - Favicon help https://www.youtube.com/watch?v=Gpa780F9haQ
@@ -80,6 +102,21 @@ Anyone really that want to improve their guitar skills or just want to buy a coo
 ## Site owner's goal
 To spread more interest in playing guitar and instruments overall. The goal is to guide people toward learning productive skills through music.
 
+## Development Process
+
+This is how I built the site in simple steps:
+
+1. **Idea:** I wanted a small music website for guitars, lessons, and merch.
+2. **Planning:** I wrote a few user stories and drew simple wireframes (mobile + desktop).
+3. **Design:** I picked colors and fonts that are easy to read and have good contrast.
+4. **Build:** I made the HTML pages first, then added CSS. I used Bootstrap for layout and the navbar.
+5. **Content:** I added images and short text for each section so it is simple to understand.
+6. **Testing:** I clicked all links and buttons, tested the form, checked responsiveness, and ran HTML/CSS validators.
+7. **Fixes:** I resized images (faster load), added `target="_blank" rel="noopener"` to external links, and improved titles.
+8. **Deploy:** I pushed to GitHub and published with GitHub Pages (see Deployment section).
+9. **Next steps:** Add more screenshots, more guitars, and maybe a real backend form later.
+
+
 ## Manual Testing
 
   - **HTML Validation** All pages (index.html, merch.html, book-guitar-lesson.html, guitar-shop.html) pass the W3C Validator.
@@ -98,6 +135,36 @@ To spread more interest in playing guitar and instruments overall. The goal is t
   - All nav links work correctly.
   - Buttons lead to the correct pages.
   - Form elements are responsive and usable.
+
+### Manual Testing Table
+
+| Page              | Feature                  | Expected Result                                   | Testing Method                                 | Actual Result                                 | Fix Needed |
+|-------------------|--------------------------|---------------------------------------------------|------------------------------------------------|-----------------------------------------------|------------|
+| Home              | Navbar links             | Go to correct page when clicked                   | Clicked each navbar link                       | All worked correctly                          | None       |
+| Home              | Hero image               | Image loads and looks good                        | Loaded site and checked image                  | Image loaded fine                             | None       |
+| Home              | External link (PriceRunner) | Opens in new tab                                 | Clicked link                                   | Opened in new tab                             | None      |
+| Guitar Shop       | Product images           | Show correct guitar images                        | Viewed page                                    | All images correct                            | None       |
+| Guitar Shop       | Buy buttons              | Go to external shop in new tab                    | Clicked each button                            | All worked                                    | None       |
+| Book Guitar Lesson| Form submit               | Requires all fields before sending                | Tried empty form                               | Got error messages for required fields        | None       |
+| Book Guitar Lesson| Email input               | Only accepts valid email                          | Typed wrong format                             | Error shown                                   | None       |
+| Book Guitar Lesson| Dropdown (Instrument)     | Can select an instrument                          | Tried selecting each option                    | All worked                                    | None       |
+| Merch             | Product images            | Images show correctly                             | Checked page                                   | All loaded                                    | None       |
+| Merch             | External merch links      | Open in new tab                                   | Clicked each                                   | Opened in new tab                             | None       |
+| All pages         | Responsiveness            | Content adjusts for mobile/tablet/desktop         | Tested with Chrome DevTools                    | Layout adjusts well                           | None       |
+| All pages         | HTML & CSS validation     | No validation errors                              | Used W3C and Jigsaw validators                 | Passed both                                   | None       |
+
+
+## Deployment
+
+### Run locally
+1. Clone the repo:
+   ```bash
+   git clone <your-repo-url>
+   
+1. Open the folder in VS Code.
+
+2. Open index.html in your browser (or use the Live Server extension).
+
 
 
 
