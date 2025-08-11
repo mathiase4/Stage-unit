@@ -111,24 +111,39 @@ This helped me decide where to put everything, like text, buttons, navbar, and s
 - checked and fixed HTML and CSS
 
   
-  
-
-## Site owner's goal
+  ## Site owner's goal
 To spread more interest in playing guitar and instruments overall. The goal is to guide people toward learning productive skills through music.
 
 ## Development Process
+1. **Idea**:
+- I wanted to create a simple website where people can see guitars, book lessons, and buy merch. The goal was to make it easy for beginners to use.
 
-This is how I built the site in simple steps:
+2. **Planning**:
+- I wrote user stories and made wireframes for mobile and desktop. This helped me plan the layout and decide where to place everything.
 
-1. **Idea:** I wanted a small music website for guitars, lessons, and merch.
-2. **Planning:** I wrote a few user stories and drew simple wireframes (mobile + desktop).
-3. **Design:** I picked colors and fonts that are easy to read and have good contrast.
-4. **Build:** I made the HTML pages first, then added CSS. I used Bootstrap for layout and the navbar.
-5. **Content:** I added images and short text for each section so it is simple to understand.
-6. **Testing:** I clicked all links and buttons, tested the form, checked responsiveness, and ran HTML/CSS validators.
-7. **Fixes:** I resized images (faster load), added `target="_blank" rel="noopener"` to external links, and improved titles.
-8. **Deploy:** I pushed to GitHub and published with GitHub Pages (see Deployment section).
-9. **Next steps:** Add more screenshots, more guitars, and maybe a real backend form later.
+3. **Design**:
+- I chose easy-to-read colors and fonts. I made sure the website had good contrast and looked clean on both small and big screens.
+
+4. **Build**:
+- I started by creating the HTML structure, then added CSS to style the website. I used Bootstrap to make it responsive, so it works on all screen sizes.
+- **Why Bootstrap?**:
+- I chose Bootstrap because it made it easy to create a responsive layout without having to write a lot of custom CSS. It helped the website look good on all screen sizes, from mobile to desktop.
+
+
+5. **Content**:
+- I added images and simple text to explain the guitars, lessons, and merch. The content is short and clear, so people can easily understand it.
+
+6. **Testing**:
+- I tested all links and buttons to make sure they worked. I also checked how the website looked on mobile, tablet, and desktop. I used HTML and CSS validators to make sure the code was correct.
+
+7. **Fixes**:
+- I noticed the images were too big, so I resized them and added width and height to the image tags. I also made sure external links open in a new tab with target="_blank" and rel="noopener".
+- **Challenge**: Handling large images
+- I noticed that large images were slowing down the website. To fix this, I resized the images and added width/height to the image tags. This helped improve loading times and performance.
+
+
+8. **Deploy**:
+- After everything was tested, I uploaded the website to GitHub Pages so it’s live for everyone to see.
 
 
 ## Manual Testing
