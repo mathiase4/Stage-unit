@@ -202,7 +202,7 @@ Below are simple screenshots I took while testing:
   ![Home Desktop](assets/screenshots/home3.png)
 
 - Home (Mobile):  
-  ![Home Mobile](assets/images/screenshots/home-mobile.png)
+  ![Home Mobile](assets/screenshots/home-mobile.png)
 
 - Guitar Shop page:  
   ![Shop](assets/screenshots/guitarhome1.png)
