@@ -218,8 +218,8 @@ Below are simple screenshots I took while testing:
 
   - Home (Mobile):  
   ![Home Mobile](assets/screenshots/mobilhome1.png)
- ![Home Mobile](assets/screenshots/mobilhome2.png)
- ![Home Mobile](assets/screenshots/mobilhome3.png)
+  ![Home Mobile](assets/screenshots/mobilhome2.png)
+  ![Home Mobile](assets/screenshots/mobilhome3.png)
   
 
 - HTML Validation (W3C):
