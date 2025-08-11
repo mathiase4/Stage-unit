@@ -11,9 +11,47 @@ The goal is to help beginners and music fans find gear and learn guitar in a sim
 
 ---
 
+## Table of Contents
+- [Project Purpose](#project-purpose)
+- [Target Users](#target-users)
+- [Planned Pages/Sections](#planned-pagessections)
+- [Wireframes](#wireframes)
+- [UX and Design Features](#ux-and-design-features)
+- [Tools & Tech](#tools--tech)
+- [Help / Aid Tools](#help-aid-tools)
+- [Lighthouse Diagnostics](#lighthouse-diagnostics-desktop-and-mobile)
+- [What I Did for Lighthouse](#lighthouse-diagnostics-what-i-did)
+- [Site Owner’s Goal](#site-owners-goal)
+- [Development Process](#development-process)
+- [Manual Testing](#manual-testing)
+- [Manual Testing Table](#manual-testing-table)
+- [Deployment](#deployment)
+- [Bugs](#bugs)
 
+## Testing of User Stories
 
-## Project Purpose
+### User Story 1:
+
+- As a beginner guitar player, I want to see affordable guitar options so I can choose the right one.
+- Test: Went to "Guitar Shop" page.
+- Expected: See guitar list with prices and links to buy.
+- Result: All guitars are shown with images and buy buttons. Links open in a new tab. 
+
+### User Story 2:
+
+- As a user, I want to book an online guitar lesson so I can learn from home.
+- Test: Filled in the booking form with all correct details.
+- Expected: Form sends data after clicking "Submit".
+- Result: Form worked and showed confirmation message. 
+
+### User Story 3:
+
+- As a music fan, I want to buy merch so I can support Stage Unit.
+- Test: Clicked “Buy Now” on merch page.
+- Expected: Button works (placeholder for now).
+- Result: Button works and stays on page as expected. 
+
+### Project Purpose
 
 - Show good quality guitars that are affordable.  
 - Let users book online guitar lessons and learn from anywhere.  
