@@ -70,14 +70,16 @@ This helped me decide where to put everything, like text, buttons, navbar, and s
  
 
 
-      ## Help/ aid tools
-      - Favicon help https://www.youtube.com/watch?v=Gpa780F9haQ
-      - Google Fonts
-      - Bootstrap
-      - Fontawesome
-      - Youtube
-      - https://www.adobe.com/express/feature/image/remove-background/png/transparent
-      - Sora AI for website images
+
+  ## Help/ aid tools
+  
+   - Favicon help https://www.youtube.com/watch?v=Gpa780F9haQ
+   - Google Fonts
+   - Bootstrap
+   - Fontawesome
+   - Youtube
+   - https://www.adobe.com/express/feature/image/remove-background/png/transparent
+   - Sora AI for website images
   
 ## Lighthouse Diagnostics Desktop and Mobile
 - Large contentful paint element.
@@ -151,15 +153,41 @@ This is how I built the site in simple steps:
 
 
 
-### Run locally
-1. Clone the repo:
+
+
+
+## Deployment
+
+### How I Published the Site
+1. Created a repository on GitHub named "Stage-unit"
+2. Used these commands to upload my code:
    ```bash
-   git clone https://github.com/mathiase4/Stage-unit.git
+   git add .
+   git commit -m "First version with all pages"
+   git push
 
-  2. Open the folder in VS Code.
+3. Published using GitHub Pages:
+- Went to repository Settings
+- Scrolled to Pages section
+- Selected main branch
+- Clicked Save
+- Waited for live link
+  
 
-3. Open index.html in your browser (or use the Live Server extension) to view the site locally.
+ ### Run Locally
+ 
+1. Clone the repository:
 
+bash
+git clone https://github.com/mathiase4/Stage-unit.git
+
+2. Open folder in VS Code
+
+3. Launch with:
+
+Right-click index.html > "Open with Live Server" 
+
+OR double-click index.html in file explorer
 
    
 
