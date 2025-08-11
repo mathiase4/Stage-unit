@@ -132,40 +132,52 @@ This is how I built the site in simple steps:
 
 ## Manual Testing
 
-  - **HTML Validation** All pages (index.html, merch.html, book-guitar-lesson.html, guitar-shop.html) pass the W3C Validator.
-  - **CSS Validation** style.css passed validation without errors.
-  - **Lighthouse Audit**
-  - Desktop Performance: 98%
-  - Mobile Performance: 74%
-  - Best Practices: 96%
-  - Issues mostly related to large image file sizes (now resolved by resizing and setting correct width/height attributes).
-   - **Responsiveness Testing**
-     **Tested manually on:**
-  - Mobile (Chrome dev tools)
-  - Desktop
-  - XXL desktop screen
-  - **Functionality Testing**
-  - All nav links work correctly.
-  - Buttons lead to the correct pages.
-  - Form elements are responsive and usable.
+- **HTML Validation** – I tested all pages (index.html, merch.html, book-guitar-lesson.html, guitar-shop.html) in W3C Validator. No errors.
+
+- **CSS Validation** – style.css passed without errors in Jigsaw validator.
+
+**Lighthouse Audit** (11 Aug 2025, deployed site)
+
+- **Desktop**: Performance 98%, Best Practices 96%, Accessibility 100%, SEO 100%
+
+- **Mobile**: Performance 74%, Best Practices 96%, Accessibility 100%, SEO 100%
+Most problems were from big image sizes. I fixed it by making images smaller and adding width/height in the HTML.
+
+**Responsiveness Testing**
+I checked:
+
+- Mobile (Chrome DevTools)
+
+- Desktop
+
+- Big desktop screen
+It worked fine on all.
+
+**Functionality Testing**
+
+- All navbar links go to the right page.
+
+- Buttons go to the right place.
+
+- Form works and is easy to use on all devices.
 
 
 
-### Manual Testing Table
 
-| Page              | Feature                  | Expected Result                                   | Testing Method                                 | Actual Result                                 | Fix Needed |
-|-------------------|--------------------------|---------------------------------------------------|------------------------------------------------|-----------------------------------------------|------------|
-| Home              | Navbar links             | Go to correct page when clicked                   | Clicked each navbar link                       | All worked correctly                          | None       |
-| Home              | Hero image               | Image loads and looks good                        | Loaded site and checked image                  | Image loaded fine                             | None       |
-| Guitar Shop       | External link (PriceRunner) | Opens in new tab                               | Clicked each PriceRunner link                  | Opened in new tab                             | None       |
-| Guitar Shop       | Product images           | Show correct guitar images                        | Viewed page                                    | All images correct                            | None       |
-| Guitar Shop       | Buy buttons              | Go to external shop in new tab                    | Clicked each button                            | All worked                                    | None       |
-| Book Guitar Lesson| Form submit               | Requires all fields before sending                | Tried empty form                               | Got error messages for required fields        | None       |
-| Book Guitar Lesson| Email input               | Only accepts valid email                          | Typed wrong format                             | Error shown                                   | None       |
-| Book Guitar Lesson| Dropdown (Instrument)     | Can select an instrument                          | Tried selecting each option                    | All worked                                    | None       |
-| Merch             | “Buy now” buttons (placeholder) | Stay on page (no navigation)                  | Clicked each button                            | Worked as placeholder                         | None       |
-| All pages         | Responsiveness            | Content adjusts for mobile/tablet/desktop         | Tested with Chrome DevTools                    | Layout adjusts well                           | None       |
-| All pages         | HTML & CSS validation     | No validation errors                              | Used W3C and Jigsaw validators                 | Passed both                                   | None       |
+| Page               | What I tested         | What I expected                   | How I tested                      | What happened         | Fix  |
+| ------------------ | --------------------- | --------------------------------- | --------------------------------- | --------------------- | ---- |
+| Home               | Navbar links          | Go to the right page when clicked | Clicked all the links in the menu | All links worked fine | None |
+| Home               | Main image            | Show up and look good             | Opened the page and checked       | Image showed fine     | None |
+| Guitar Shop        | PriceRunner links     | Open in new tab                   | Clicked each link                 | Opened in new tab     | None |
+| Guitar Shop        | Guitar images         | Show correct guitar pictures      | Looked at all the pictures        | All were correct      | None |
+| Guitar Shop        | Buy buttons           | Go to shop in new tab             | Clicked buttons                   | Opened in new tab     | None |
+| Book Guitar Lesson | Form submit           | Need all fields before sending    | Tried to send with empty fields   | Got error messages    | None |
+| Book Guitar Lesson | Email field           | Only accept real email format     | Typed wrong format                | Got error message     | None |
+| Book Guitar Lesson | Dropdown              | Should let me pick instrument     | Tried each option                 | Worked fine           | None |
+| Merch              | Buy now buttons       | Stay on page (placeholder)        | Clicked buttons                   | Stayed on page        | None |
+| All pages          | Mobile view           | Fit on small screen               | Checked in Chrome DevTools        | Looked fine           | None |
+| All pages          | HTML & CSS validation | No errors                         | Used W3C and Jigsaw validators    | Passed                | None |
+
 
 
 
@@ -195,6 +207,11 @@ This is how I built the site in simple steps:
 ## Screenshots
 
 Below are simple screenshots I took while testing:
+
+All features on the site were tested manually.  
+Testing was done on desktop and mobile devices using Chrome DevTools, W3C HTML Validator, Jigsaw CSS Validator, and Lighthouse.  
+Each link, button, and form element was checked to make sure it works as expected.  
+
 
 - Home (Desktop):  
   ![Home Desktop](assets/screenshots/home1.png)
@@ -276,7 +293,7 @@ git clone https://github.com/mathiase4/Stage-unit.git
 
 
 
-## Bugs & Fixes
+## Bugs and Fixes
 
 - **Bug 1 – Some links opened in the same tab**  
   **What happened:** When clicking some external links (for example the guitar links to PriceRunner), they opened in the same tab. This made the user leave the site and they had to click the back button to return.  
