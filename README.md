@@ -98,6 +98,10 @@ This helped me decide where to put everything, like text, buttons, navbar, and s
    - Sora AI for website images
   
 ## Lighthouse Diagnostics Desktop and Mobile
+
+I used Chrome Lighthouse to check how well my site works for performance, accessibility, best practices, and SEO.  
+Here are the main results and issues I found:
+
 - Large contentful paint element.
 - preconnect to required origins.
 - eliminate render-blocking resources.
